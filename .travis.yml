@@ -140,8 +140,8 @@ jobs:
         - travis_wait 30 make check -C test
         - test/filter-suite-log.sh test/test-suite.log
 
-  exclude:
-    - if: os = linux-ppc64le  # TODO: travis-ci.com cannot use Java 7 which S3Proxy requires
+#  exclude:
+#    - if: os = linux-ppc64le  # TODO: travis-ci.com cannot use Java 7 which S3Proxy requires
 
 #
 # Local variables:
