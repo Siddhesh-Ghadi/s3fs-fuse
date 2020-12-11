@@ -121,7 +121,7 @@ jobs:
         - travis_wait 30 make check -C test
         - test/filter-suite-log.sh test/test-suite.log
 
-    - os: ppc64le
+    - arch: ppc64le
       dist: trusty
       cache: apt
       before_install:
